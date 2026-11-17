@@ -1,0 +1,129 @@
+
+# =====================================
+# OPERATING SYSTEM
+# =====================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# =====================================
+# ENVIRONMENT & SECURITY
+# =====================================
+
+.env
+.env.*
+!.env.example
+.vagrant
+Vagrantfile
+
+# =====================================
+# CODEIGNITER 4 / PHP
+# =====================================
+
+# Composer dependencies
+**/vendor/
+
+# Writable temporary files
+**/writable/cache/*
+!**/writable/cache/index.html
+
+**/writable/logs/*
+!**/writable/logs/index.html
+
+**/writable/session/*
+!**/writable/session/index.html
+
+**/writable/uploads/*
+!**/writable/uploads/index.html
+
+**/writable/debugbar/*
+!**/writable/debugbar/index.html
+
+# PHP temporary files
+php_errors.log
+*.log
+
+# PHPUnit
+**/phpunit
+**/phpunit.xml
+**/tests/coverage*
+
+# User guide build
+**/user_guide_src/build/*
+**/user_guide_src/cilexer/build/*
+**/user_guide_src/cilexer/dist/*
+**/user_guide_src/cilexer/pycilexer.egg-info/*
+
+# Temporary modules
+**/_modules/*
+
+# =====================================
+# FLUTTER / DART
+# =====================================
+
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/coverage/
+**/.flutter-idea
+
+# Generated Flutter files
+**/generated_plugin_registrant.dart
+
+# =====================================
+# IDE / EDITORS
+# =====================================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains / Android Studio
+.idea/
+*.iml
+
+# NetBeans
+nbproject/
+nbbuild/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# =====================================
+# BUILD / TEMPORARY FILES
+# =====================================
+
+**/dist/
+**/tmp/
+*.tmp
+*.bak
+
+# =====================================
+# DATABASE BACKUP
+# =====================================
+
+*.sql.bak
+*.dump
